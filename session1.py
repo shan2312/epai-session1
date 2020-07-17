@@ -6,7 +6,7 @@ def myFunc():
       for j in range(i+1,n+1):
           a=string[i:j]
           arr.append(a)
-	print(arr)
+    print(arr)
 
 def my_Func():
     pass
@@ -33,4 +33,3 @@ class Rectangle:
     def __lt__(self, other):
         if isinstance(other, Rectangle):
             return self.area() == other.area()
-        
